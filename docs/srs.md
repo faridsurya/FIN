@@ -30,11 +30,36 @@ Specify the hardware, software, and network infrastructure required to run the s
 
 ## 3. Functional Requirements
 
-### Requirement 1
-Describe a specific functional requirement of the software. Clearly state what the software should do.
+### 3.1 Pelaporan Fasilitas Rusak
+Pengguna dapat mengambil foto atau video fasilitas yang rusak.
+Pengguna dapat memberikan keterangan kondisi dan lokasi fasilitas yang rusak.
+Pengguna dapat mengunggah foto, video, dan keterangan ke aplikasi.
 
-### Requirement 2
-Describe another functional requirement using the same format.
+### 3.2 Voting Urgensi Perbaikan
+Pengguna dapat melakukan voting pada laporan fasilitas yang perlu diperbaiki untuk menunjukkan tingkat urgensi.
+Voting dilakukan dengan memberikan suara untuk setiap laporan yang diajukan.
+
+### 3.3 Komentar
+Pengguna dapat memberikan komentar pada laporan fasilitas yang rusak.
+Pengguna dapat berinteraksi dan berdiskusi melalui komentar pada laporan.
+
+### 3.4 Update Status Perbaikan
+Administrator dapat memperbarui status perbaikan pada laporan yang masuk.
+Administrator dapat menandai laporan sebagai "dalam perbaikan" atau "selesai diperbaiki".
+
+### 3.5 Notifikasi
+Pengguna akan menerima notifikasi saat ada perubahan status pada laporan yang mereka ikuti.
+Administrator akan menerima notifikasi saat ada laporan baru yang perlu ditangani.
+
+### 3.6 Point and Badge Management
+Sistem akan memberikan poin kepada pengguna yang aktif berpartisipasi dalam melaporkan dan memperbaiki fasilitas.
+Pengguna akan mendapatkan penghargaan berupa badge berdasarkan tingkat kontribusinya.
+
+### 3.7 Leaderboard
+Aplikasi akan menyediakan leaderboard yang menampilkan peringkat pengguna berdasarkan kontribusi mereka dalam memperbaiki fasilitas.
+
+### 3.8 Reward System
+Sistem akan memberikan reward kepada pengguna yang mencapai prestasi tertentu dalam memperbaiki fasilitas, seperti diskon makanan di kantin atau hadiah lainnya.
 
 ## 4. Non-functional Requirements
 
