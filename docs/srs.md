@@ -86,16 +86,16 @@ Sistem akan memberikan reward kepada pengguna yang mencapai prestasi tertentu da
 
 ### 4.1 Performance Requirements
 
-- **R1:** The system shall provide a maximum response time of 30 seconds for user interactions.
-- **R2:** The system shall support a maximum throughput of 100 concurrent users without compromising performance or response time.
+-  The system shall provide a maximum response time of 30 seconds for user interactions.
+-  The system shall support a maximum throughput of 100 concurrent users without compromising performance or response time.
 
 ### 4.2 Security Requirements
 
-- **R3:** User Authentication: Users shall be required to go through a login process to access the application.
-- **R4:** Access Control: Users shall be differentiated into public users and administrators with appropriate access rights.
-- **R5:** Data Privacy: User data shall be ensured confidentiality and shall not be shared with third parties without consent.
-- **R6:** Communication Security: The system shall use HTTPS protocol to secure data communication between clients and servers.
-- **R7:** Protection against Attacks: The system shall implement security measures to protect against security attacks, including data filtering to prevent injection attacks, server security to prevent unauthorized access, and regular data backups to ensure data security.
+- User Authentication: Users shall be required to go through a login process to access the application.
+- Access Control: Users shall be differentiated into public users and administrators with appropriate access rights.
+- Data Privacy: User data shall be ensured confidentiality and shall not be shared with third parties without consent.
+- Communication Security: The system shall use HTTPS protocol to secure data communication between clients and servers.
+- Protection against Attacks: The system shall implement security measures to protect against security attacks, including data filtering to prevent injection attacks, server security to prevent unauthorized access, and regular data backups to ensure data security.
 
 ### 4.3 Reliability Requirements
 
@@ -103,16 +103,16 @@ Sistem akan memberikan reward kepada pengguna yang mencapai prestasi tertentu da
 
 ### 4.4 Usability Requirements
 
-- **R8:** User Interface Guidelines: The application shall adhere to user interface guidelines that promote consistency and ease of use.
-- **R9:** Accessibility Standards: The application shall comply with relevant accessibility standards to ensure usability for users with disabilities.
-- **R10:** Easy Facility Reporting: The system shall provide an intuitive interface for users to easily report facility damages, including the ability to upload photos or videos and provide clear descriptions of the condition and location.
-- **R11:** Ease of Navigation: The application shall have a user-friendly navigation system, allowing users to easily explore and access various features and functionalities.
-- **R12:** Responsiveness and Speed: The application shall be responsive and provide fast response times to user actions, such as uploading photos or casting votes on reports.
-- **R13:** Clear Error Messages and Notifications: The system shall provide clear and informative error messages and notifications to assist users in resolving issues and continue their actions smoothly.
-- **R14:** Multi-platform Compatibility: The application shall be compatible with different devices and platforms, including desktops, laptops, and mobile devices. The user interface shall be designed to accommodate various screen sizes and resolutions.
+- User Interface Guidelines: The application shall adhere to user interface guidelines that promote consistency and ease of use.
+- Accessibility Standards: The application shall comply with relevant accessibility standards to ensure usability for users with disabilities.
+- Easy Facility Reporting: The system shall provide an intuitive interface for users to easily report facility damages, including the ability to upload photos or videos and provide clear descriptions of the condition and location.
+- Ease of Navigation: The application shall have a user-friendly navigation system, allowing users to easily explore and access various features and functionalities.
+- Responsiveness and Speed: The application shall be responsive and provide fast response times to user actions, such as uploading photos or casting votes on reports.
+- Clear Error Messages and Notifications: The system shall provide clear and informative error messages and notifications to assist users in resolving issues and continue their actions smoothly.
+- Multi-platform Compatibility: The application shall be compatible with different devices and platforms, including desktops, laptops, and mobile devices. The user interface shall be designed to accommodate various screen sizes and resolutions.
 
 ### Note:
-- **N1:** Users are strictly prohibited from uploading photos or videos that are not directly related to facility damages or taken in restricted areas.
+- Users are strictly prohibited from uploading photos or videos that are not directly related to facility damages or taken in restricted areas.
 
 
 ## 5. Constraints and Assumptions
