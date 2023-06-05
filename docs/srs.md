@@ -25,19 +25,29 @@ Aplikasi perangkat lunak akan dikembangkan untuk platform web, memastikan aksesi
 ### Intended Audience
 Dokumen SRS ini secara khusus ditujukan untuk manajer proyek, personel pemeliharaan fasilitas, dan pengembang yang terlibat dalam proyek perangkat lunak ini. Manajer proyek akan menggunakan dokumen ini untuk memastikan bahwa pengembangan perangkat lunak sejalan dengan persyaratan yang ditentukan. Personel pemeliharaan fasilitas akan merujuk dokumen ini untuk memahami fungsionalitas dan fitur dari sistem. Pengembang akan mengandalkan dokumen ini sebagai referensi selama proses pengembangan.
 
-## 2. System Overview
+# 2. System Overview
 
-### Product Perspective
-Describe how the software system fits into the overall context, including any external systems or components it interacts with.
+## 2.1 Product Perspective
+The software system interacts with the following external systems or components:
+- Database Server: Responsible for storing and managing facility maintenance reports and user information.
+- Google Authenticator: Provides secure user authentication for accessing the application.
+- Notification System: Sends alerts and updates to users regarding the status of reported issues.
 
-### Product Features
-List and briefly describe the key features or functionalities of the software system.
+## 2.2 Product Features
+The key features of the software system include:
+- Public User Reporting: Enables public users to report facility damages or issues.
+- Admin Review and Posting: Allows administrators to review and post approved reports.
+- Public Voting: Enables public users to vote on reported issues for prioritization.
+- Issue Classification: Helps administrators classify reported issues based on voting.
 
-### User Classes and Characteristics
-Identify the different types of users who will interact with the software and describe their characteristics or roles.
+## 2.3 User Classes and Characteristics
+The users are divided into two classes:
+- Public Users: Individuals from the general public (e.g., students, faculty, staff) who can submit reports and participate in voting.
+- Administrators: Responsible for reviewing reports, posting approved ones, and classifying issues.
 
-### Operating Environment
-Specify the hardware, software, and network infrastructure required to run the software system.
+## 2.4 Operating Environment
+The software system requires a constant internet connection for access. There are no specific hardware or software requirements as the system will be accessed through a web-based interface.
+
 
 ## 3. Functional Requirements
 
