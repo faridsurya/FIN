@@ -111,8 +111,8 @@ Sistem akan memberikan reward kepada pengguna yang mencapai prestasi tertentu da
 - Clear Error Messages and Notifications: The system shall provide clear and informative error messages and notifications to assist users in resolving issues and continue their actions smoothly.
 - Multi-platform Compatibility: The application shall be compatible with different devices and platforms, including desktops, laptops, and mobile devices. The user interface shall be designed to accommodate various screen sizes and resolutions.
 
-### Note:
-- Users are strictly prohibited from uploading photos or videos that are not directly related to facility damages or taken in restricted areas.
+  #### Note:
+  - Users are strictly prohibited from uploading photos or videos that are not directly related to facility damages or taken in restricted areas.
 
 
 ## 5. Constraints and Assumptions
