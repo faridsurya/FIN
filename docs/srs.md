@@ -6,13 +6,23 @@
 ## 1. Introduction
 
 ### Purpose
-Provide a brief overview of the purpose of the SRS document.
+Tujuan dari dokumen Spesifikasi Persyaratan Perangkat Lunak (SRS) ini adalah untuk menjelaskan spesifikasi dan persyaratan untuk pengembangan sistem pelaporan pemeliharaan fasilitas. Sistem ini bertujuan untuk membantu pemeliharaan fasilitas publik dengan memberikan platform bagi pengguna untuk melaporkan kerusakan atau masalah di lingkungan kampus. Dengan memungkinkan pelaporan kerusakan fasilitas secara mudah dan efisien, personel pemeliharaan yang bertanggung jawab dapat segera menangani dan menyelesaikan masalah yang dilaporkan.
 
 ### Scope
-Define the scope of the software project. Specify the functionalities and features that will be included in the software.
+Proyek perangkat lunak akan mencakup fitur dan fungsionalitas berikut:
+
+- Pengguna dapat mengunggah foto atau video beserta deskripsi kondisi dan lokasi kerusakan fasilitas.
+- Pengguna dapat memberikan suara pada urgensi perbaikan, memberikan indikasi prioritas bagi personel pemeliharaan.
+- Pengguna dan personel pemeliharaan dapat berdiskusi melalui komentar.
+- Personel pemeliharaan akan dapat memperbarui status perbaikan, memberikan visibilitas terhadap kemajuan penanganan masalah yang dilaporkan.
+- Pengguna akan menerima pemberitahuan mengenai status masalah yang dilaporkan.
+- Sistem akan mencakup manajemen poin dan penghargaan (badge) untuk mendorong partisipasi aktif dari pengguna.
+- Akan ada leaderboard untuk menampilkan kontributor terbaik berdasarkan aktivitas pelaporan dan keterlibatan mereka.
+- Sistem akan memiliki sistem penghargaan untuk mengakui dan menghargai pengguna atas kontribusinya.
+Aplikasi perangkat lunak akan dikembangkan untuk platform web, memastikan aksesibilitas dan kompatibilitas di berbagai perangkat dan browser.
 
 ### Intended Audience
-Specify the intended audience for the SRS document, such as developers, project managers, or stakeholders.
+Dokumen SRS ini secara khusus ditujukan untuk manajer proyek, personel pemeliharaan fasilitas, dan pengembang yang terlibat dalam proyek perangkat lunak ini. Manajer proyek akan menggunakan dokumen ini untuk memastikan bahwa pengembangan perangkat lunak sejalan dengan persyaratan yang ditentukan. Personel pemeliharaan fasilitas akan merujuk dokumen ini untuk memahami fungsionalitas dan fitur dari sistem. Pengembang akan mengandalkan dokumen ini sebagai referensi selama proses pengembangan.
 
 ## 2. System Overview
 
