@@ -12,13 +12,14 @@ Tujuan dari dokumen Spesifikasi Persyaratan Perangkat Lunak (SRS) ini adalah unt
 Proyek perangkat lunak akan mencakup fitur dan fungsionalitas berikut:
 
 - Pengguna dapat mengunggah foto atau video beserta deskripsi kondisi dan lokasi kerusakan fasilitas.
-- Pengguna dapat memberikan suara pada urgensi perbaikan, memberikan indikasi prioritas bagi personel pemeliharaan.
+- Pengguna dapat memberikan voting pada urgensi perbaikan, memberikan indikasi prioritas bagi personel pemeliharaan.
 - Pengguna dan personel pemeliharaan dapat berdiskusi melalui komentar.
 - Personel pemeliharaan akan dapat memperbarui status perbaikan, memberikan visibilitas terhadap kemajuan penanganan masalah yang dilaporkan.
 - Pengguna akan menerima pemberitahuan mengenai status masalah yang dilaporkan.
 - Sistem akan mencakup manajemen poin dan penghargaan (badge) untuk mendorong partisipasi aktif dari pengguna.
 - Akan ada leaderboard untuk menampilkan kontributor terbaik berdasarkan aktivitas pelaporan dan keterlibatan mereka.
 - Sistem akan memiliki sistem penghargaan untuk mengakui dan menghargai pengguna atas kontribusinya.
+
 Aplikasi perangkat lunak akan dikembangkan untuk platform web, memastikan aksesibilitas dan kompatibilitas di berbagai perangkat dan browser.
 
 ### Intended Audience
