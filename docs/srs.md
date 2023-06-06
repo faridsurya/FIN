@@ -151,9 +151,24 @@ Sistem akan memberikan reward kepada pengguna yang mencapai prestasi tertentu da
 
 ## 6. Appendix
 
-### Glossary
-Include a glossary of relevant terms and their definitions.
+### 6.1 Glossary
 
-### References
-List any external references or documents that were consulted during the creation of the SRS.
+Berikut adalah daftar istilah yang relevan beserta definisinya:
+
+- Sistem perangkat lunak: Kumpulan program komputer yang berfungsi untuk memenuhi kebutuhan pengguna dengan melakukan tugas-tugas tertentu.
+- Pelaporan fasilitas: Proses penggunaan aplikasi untuk melaporkan kerusakan atau masalah yang terjadi pada fasilitas tertentu.
+- Pengguna publik: Individu dari masyarakat umum yang menggunakan aplikasi untuk melaporkan masalah fasilitas atau berpartisipasi dalam voting.
+- Administrator: Pengguna yang memiliki hak akses khusus untuk memeriksa laporan, menampilkan yang disetujui, dan mengelola masalah fasilitas.
+- Voting: Proses pengguna memberikan suara pada masalah yang dilaporkan untuk menentukan prioritas penanganan.
+- Antarmuka berbasis web: Antarmuka pengguna yang diakses melalui web browser untuk berinteraksi dengan aplikasi.
+- Server basis data: Komponen sistem yang bertanggung jawab untuk menyimpan dan mengelola laporan pemeliharaan fasilitas dan informasi pengguna.
+- Koneksi internet: Keterhubungan perangkat dengan jaringan global yang memungkinkan akses ke aplikasi.
+
+### 6.2 Referensi
+
+Berikut adalah daftar referensi eksternal atau dokumen yang dikonsultasikan selama pembuatan SRS:
+
+1. Contoh Dokumen SRS. [URL Referensi 1]
+2. Pedoman Antarmuka Pengguna. [URL Referensi 2]
+
 
