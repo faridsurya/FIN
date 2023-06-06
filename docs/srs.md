@@ -5,10 +5,10 @@
 
 ## 1. Introduction
 
-### Purpose
+### 1.1 Purpose
 Tujuan dari dokumen Spesifikasi Persyaratan Perangkat Lunak (SRS) ini adalah untuk menjelaskan spesifikasi dan persyaratan untuk pengembangan sistem pelaporan pemeliharaan fasilitas. Sistem ini bertujuan untuk membantu pemeliharaan fasilitas publik dengan memberikan platform bagi pengguna untuk melaporkan kerusakan atau masalah di lingkungan kampus. Dengan memungkinkan pelaporan kerusakan fasilitas secara mudah dan efisien, personel pemeliharaan yang bertanggung jawab dapat segera menangani dan menyelesaikan masalah yang dilaporkan.
 
-### Scope
+### 1.2 Scope
 Proyek perangkat lunak akan mencakup fitur dan fungsionalitas berikut:
 
 - Pengguna dapat mengunggah foto atau video beserta deskripsi kondisi dan lokasi kerusakan fasilitas.
@@ -22,32 +22,49 @@ Proyek perangkat lunak akan mencakup fitur dan fungsionalitas berikut:
 
 Aplikasi perangkat lunak akan dikembangkan untuk platform web, memastikan aksesibilitas dan kompatibilitas di berbagai perangkat dan browser.
 
-### Intended Audience
+### 1.3 Intended Audience
 Dokumen SRS ini secara khusus ditujukan untuk manajer proyek, personel pemeliharaan fasilitas, dan pengembang yang terlibat dalam proyek perangkat lunak ini. Manajer proyek akan menggunakan dokumen ini untuk memastikan bahwa pengembangan perangkat lunak sejalan dengan persyaratan yang ditentukan. Personel pemeliharaan fasilitas akan merujuk dokumen ini untuk memahami fungsionalitas dan fitur dari sistem. Pengembang akan mengandalkan dokumen ini sebagai referensi selama proses pengembangan.
 
-## 2. System Overview
+# 2. System Overview
 
-### 2.1 Product Perspective
-The software system interacts with the following external systems or components:
-- Database Server: Responsible for storing and managing facility maintenance reports and user information.
-- Google Authenticator: Provides secure user authentication for accessing the application.
-- Notification System: Sends alerts and updates to users regarding the status of reported issues.
+## 2.1 Product Perspective
 
-### 2.2 Product Features
-The key features of the software system include:
-- Public User Reporting: Enables public users to report facility damages or issues.
-- Admin Review and Posting: Allows administrators to review and post approved reports.
-- Public Voting: Enables public users to vote on reported issues for prioritization.
-- Issue Classification: Helps administrators classify reported issues based on voting.
+Sistem perangkat lunak berinteraksi dengan sistem atau komponen eksternal berikut:
 
-### 2.3 User Classes and Characteristics
-The users are divided into two classes:
-- Public Users: Individuals from the general public (e.g., students, faculty, staff) who can submit reports and participate in voting.
-- Administrators: Responsible for reviewing reports, posting approved ones, and classifying issues.
+- Server Basis Data: Bertanggung jawab untuk menyimpan dan mengelola laporan pemeliharaan fasilitas dan informasi pengguna.
+- Google Authenticator: Menyediakan otentikasi pengguna yang aman untuk mengakses aplikasi.
+- Sistem Pemberitahuan: Mengirimkan pemberitahuan dan pembaruan kepada pengguna mengenai status masalah yang dilaporkan.
 
-### 2.4 Operating Environment
-The software system requires a constant internet connection for access. There are no specific hardware or software requirements as the system will be accessed through a web-based interface.
+## 2.2 Product Features
 
+Fitur utama dari sistem perangkat lunak ini meliputi:
+
+- Pelaporan oleh Pengguna Publik: Memungkinkan pengguna publik untuk melaporkan kerusakan atau masalah fasilitas.
+- Pemeriksaan dan Penayangan oleh Administrator: Memungkinkan administrator untuk memeriksa dan menampilkan laporan yang disetujui.
+- Voting oleh Publik: Memungkinkan pengguna publik untuk memberikan suara pada masalah yang dilaporkan untuk prioritas.
+- Klasifikasi Masalah: Membantu administrator mengklasifikasikan masalah yang dilaporkan berdasarkan voting.
+
+Secara umum, fitur yang diperlukan dalam perangkat lunak ini adalah sebagai berikut:
+
+- Upload foto atau video beserta keterangan kondisi dan lokasi
+- Voting urgensi perbaikan dari pengguna
+- Komentar
+- Update status perbaikan
+- Notifikasi 
+- Point and bagde management
+- Leaderboard
+- Reward system
+
+## 2.3 User Classes and Characteristics
+
+Pengguna dibagi menjadi dua kelas:
+
+- Pengguna Publik: Individu dari masyarakat umum (misalnya, mahasiswa, dosen, staf) yang dapat mengirimkan laporan dan berpartisipasi dalam voting.
+- Administrator: Bertanggung jawab untuk meninjau laporan, menampilkan yang disetujui, dan mengklasifikasikan masalah.
+
+## 2.4 Operating Environment
+
+Sistem perangkat lunak ini memerlukan koneksi internet yang konstan untuk diakses. Tidak ada persyaratan perangkat keras atau perangkat lunak tertentu karena sistem ini akan diakses melalui antarmuka berbasis web.
 
 ## 3. Functional Requirements
 
