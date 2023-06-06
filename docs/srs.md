@@ -136,11 +136,18 @@ Sistem akan memberikan reward kepada pengguna yang mencapai prestasi tertentu da
 
 ## 5. Constraints and Assumptions
 
-### Constraints
-List any constraints or limitations that may impact the development or implementation of the software.
+### 5.1 Constraints
 
-### Assumptions
-Document any assumptions made during the requirements gathering process that could affect the software's design or functionality.
+- Batasan Teknis: Tidak ada batasan khusus untuk perangkat yang digunakan, sistem menggunakan platform web, dan memerlukan koneksi yang stabil untuk dapat mengaksesnya.
+- Batasan Sumber Daya: Tidak ada batasan terkait sumber daya.
+- Batasan Hukum atau Kepatuhan: Tidak ada batasan terkait hukum atau kepatuhan.
+- Batasan Fungsional: Tidak ada batasan fungsional yang ditetapkan.
+
+### 5.2 Assumptions
+
+- Asumsi Pengguna: Diasumsikan bahwa pengguna memiliki kemampuan untuk mengoperasikan perangkat yang digunakan.
+- Asumsi Lingkungan: Diasumsikan bahwa pengguna memiliki koneksi internet yang stabil untuk mengakses sistem.
+- Asumsi Ketersediaan Sumber Daya: Diasumsikan bahwa pengembangan memerlukan keberadaan server basis data.
 
 ## 6. Appendix
 
