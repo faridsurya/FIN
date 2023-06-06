@@ -25,9 +25,9 @@ Aplikasi perangkat lunak akan dikembangkan untuk platform web, memastikan aksesi
 ### 1.3 Intended Audience
 Dokumen SRS ini secara khusus ditujukan untuk manajer proyek, personel pemeliharaan fasilitas, dan pengembang yang terlibat dalam proyek perangkat lunak ini. Manajer proyek akan menggunakan dokumen ini untuk memastikan bahwa pengembangan perangkat lunak sejalan dengan persyaratan yang ditentukan. Personel pemeliharaan fasilitas akan merujuk dokumen ini untuk memahami fungsionalitas dan fitur dari sistem. Pengembang akan mengandalkan dokumen ini sebagai referensi selama proses pengembangan.
 
-# 2. System Overview
+## 2. System Overview
 
-## 2.1 Product Perspective
+### 2.1 Product Perspective
 
 Sistem perangkat lunak berinteraksi dengan sistem atau komponen eksternal berikut:
 
@@ -35,7 +35,7 @@ Sistem perangkat lunak berinteraksi dengan sistem atau komponen eksternal beriku
 - Google Authenticator: Menyediakan otentikasi pengguna yang aman untuk mengakses aplikasi.
 - Sistem Pemberitahuan: Mengirimkan pemberitahuan dan pembaruan kepada pengguna mengenai status masalah yang dilaporkan.
 
-## 2.2 Product Features
+### 2.2 Product Features
 
 Fitur utama dari sistem perangkat lunak ini meliputi:
 
@@ -55,14 +55,14 @@ Secara umum, fitur yang diperlukan dalam perangkat lunak ini adalah sebagai beri
 - Leaderboard
 - Reward system
 
-## 2.3 User Classes and Characteristics
+### 2.3 User Classes and Characteristics
 
 Pengguna dibagi menjadi dua kelas:
 
 - Pengguna Publik: Individu dari masyarakat umum (misalnya, mahasiswa, dosen, staf) yang dapat mengirimkan laporan dan berpartisipasi dalam voting.
 - Administrator: Bertanggung jawab untuk meninjau laporan, menampilkan yang disetujui, dan mengklasifikasikan masalah.
 
-## 2.4 Operating Environment
+### 2.4 Operating Environment
 
 Sistem perangkat lunak ini memerlukan koneksi internet yang konstan untuk diakses. Tidak ada persyaratan perangkat keras atau perangkat lunak tertentu karena sistem ini akan diakses melalui antarmuka berbasis web.
 
@@ -103,34 +103,36 @@ Sistem akan memberikan reward kepada pengguna yang mencapai prestasi tertentu da
 
 ### 4.1 Performance Requirements
 
--  The system shall provide a maximum response time of 30 seconds for user interactions.
--  The system shall support a maximum throughput of 100 concurrent users without compromising performance or response time.
+#### 4.1.1 Waktu Respons
+- Sistem harus memberikan waktu respons maksimum 30 detik untuk interaksi pengguna.
+
+#### 4.1.2 Throughput
+- Sistem harus mendukung throughput maksimum 100 pengguna simultan tanpa mengorbankan performa atau waktu respons.
 
 ### 4.2 Security Requirements
 
-- User Authentication: Users shall be required to go through a login process to access the application.
-- Access Control: Users shall be differentiated into public users and administrators with appropriate access rights.
-- Data Privacy: User data shall be ensured confidentiality and shall not be shared with third parties without consent.
-- Communication Security: The system shall use HTTPS protocol to secure data communication between clients and servers.
-- Protection against Attacks: The system shall implement security measures to protect against security attacks, including data filtering to prevent injection attacks, server security to prevent unauthorized access, and regular data backups to ensure data security.
+- Autentikasi Pengguna: Pengguna harus melewati proses login untuk mengakses aplikasi.
+- Kontrol Akses: Pengguna dibedakan menjadi pengguna publik dan administrator dengan hak akses yang sesuai.
+- Privasi Data: Data pengguna harus dijamin kerahasiaannya dan tidak boleh dibagikan kepada pihak ketiga tanpa persetujuan.
+- Keamanan Komunikasi: Sistem harus menggunakan protokol HTTPS untuk mengamankan komunikasi data antara klien dan server.
+- Perlindungan terhadap Serangan: Sistem harus menerapkan langkah-langkah keamanan untuk melindungi terhadap serangan keamanan, termasuk penyaringan data untuk mencegah serangan injeksi, keamanan server untuk mencegah akses tanpa izin, dan backup data secara teratur untuk memastikan keamanan data.
 
 ### 4.3 Reliability Requirements
 
-- No specific reliability requirements identified.
+- Tidak ada persyaratan keandalan yang spesifik yang diidentifikasi.
 
 ### 4.4 Usability Requirements
 
-- User Interface Guidelines: The application shall adhere to user interface guidelines that promote consistency and ease of use.
-- Accessibility Standards: The application shall comply with relevant accessibility standards to ensure usability for users with disabilities.
-- Easy Facility Reporting: The system shall provide an intuitive interface for users to easily report facility damages, including the ability to upload photos or videos and provide clear descriptions of the condition and location.
-- Ease of Navigation: The application shall have a user-friendly navigation system, allowing users to easily explore and access various features and functionalities.
-- Responsiveness and Speed: The application shall be responsive and provide fast response times to user actions, such as uploading photos or casting votes on reports.
-- Clear Error Messages and Notifications: The system shall provide clear and informative error messages and notifications to assist users in resolving issues and continue their actions smoothly.
-- Multi-platform Compatibility: The application shall be compatible with different devices and platforms, including desktops, laptops, and mobile devices. The user interface shall be designed to accommodate various screen sizes and resolutions.
+- Pedoman Antarmuka Pengguna: Aplikasi harus mengikuti pedoman antarmuka pengguna yang mempromosikan konsistensi dan kemudahan penggunaan.
+- Standar Aksesibilitas: Aplikasi harus mematuhi standar aksesibilitas yang relevan untuk memastikan ketergunaan bagi pengguna dengan disabilitas.
+- Pelaporan Fasilitas yang Mudah: Sistem harus menyediakan antarmuka yang intuitif bagi pengguna untuk dengan mudah melaporkan kerusakan fasilitas, termasuk kemampuan mengunggah foto atau video dan memberikan deskripsi yang jelas mengenai kondisi dan lokasi.
+- Kemudahan Navigasi: Aplikasi harus memiliki sistem navigasi yang mudah digunakan, memungkinkan pengguna untuk dengan mudah menjelajahi dan mengakses berbagai fitur dan fungsionalitas.
+- Responsif dan Cepat: Aplikasi harus responsif dan memberikan waktu respons yang cepat terhadap tindakan pengguna, seperti mengunggah foto atau memberikan suara pada laporan.
+- Pesan Kesalahan dan Pemberitahuan yang Jelas: Sistem harus menyediakan pesan kesalahan dan pemberitahuan yang jelas dan informatif untuk membantu pengguna dalam menyelesaikan masalah dan melanjutkan tindakan mereka dengan lancar.
+- Kompatibilitas Multi-platform: Aplikasi harus kompatibel dengan berbagai perangkat dan platform, termasuk desktop, laptop, dan perangkat mobile. Antarmuka pengguna harus dirancang untuk menyesuaikan berbagai ukuran layar dan resolusi.
 
-  #### Note:
-  - Users are strictly prohibited from uploading photos or videos that are not directly related to facility damages or taken in restricted areas.
-
+#### Catatan:
+- Pengguna dilarang secara ketat mengunggah foto atau video yang tidak terkait langsung dengan kerusakan fasilitas atau diambil di area terlarang.
 
 ## 5. Constraints and Assumptions
 
