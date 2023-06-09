@@ -49,7 +49,7 @@ Fitur utama dari sistem perangkat lunak ini meliputi:
 
 Secara umum, fitur yang diperlukan dalam perangkat lunak ini adalah sebagai berikut:
 
-- Upload foto atau video beserta keterangan kondisi dan lokasi
+- Upload foto atau video beserta akses lokasi perangkat
 - ~~Voting urgensi perbaikan dari pengguna~~
 - Skala urgensi
 - Komentar
@@ -68,7 +68,9 @@ Pengguna dibagi menjadi dua kelas:
 
 ### 2.4 Operating Environment
 
-Sistem perangkat lunak ini memerlukan koneksi internet yang konstan untuk diakses. Tidak ada persyaratan perangkat keras atau perangkat lunak tertentu karena sistem ini akan diakses melalui antarmuka berbasis web.
+- Sistem perangkat lunak ini memerlukan koneksi internet yang konstan untuk diakses.
+- Tidak ada persyaratan perangkat keras atau perangkat lunak tertentu karena sistem ini akan diakses melalui antarmuka berbasis web.
+- Perangkat perlu memberikan akses GPS.
 
 ## 3. Functional Requirements
 
