@@ -77,7 +77,7 @@ Pengguna dapat mengambil foto atau video fasilitas yang rusak.
 Pengguna dapat memberikan keterangan kondisi dan lokasi fasilitas yang rusak.
 Pengguna dapat mengunggah foto, video, dan keterangan ke aplikasi.
 
-~~### 3.2 Voting Urgensi Perbaikan~~
+### 3.2 ~~Voting Urgensi Perbaikan~~
 ~~Pengguna dapat melakukan voting pada laporan fasilitas yang perlu diperbaiki untuk menunjukkan tingkat urgensi.~~
 ~~Voting dilakukan dengan memberikan suara untuk setiap laporan yang diajukan.~~
 
