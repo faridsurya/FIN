@@ -12,7 +12,7 @@ Tujuan dari dokumen Spesifikasi Persyaratan Perangkat Lunak (SRS) ini adalah unt
 Proyek perangkat lunak akan mencakup fitur dan fungsionalitas berikut:
 
 - Pengguna dapat mengunggah foto atau video beserta deskripsi kondisi dan lokasi kerusakan fasilitas.
-~~- Pengguna dapat memberikan voting pada urgensi perbaikan, memberikan indikasi prioritas bagi personel pemeliharaan.~~
+- ~~Pengguna dapat memberikan voting pada urgensi perbaikan, memberikan indikasi prioritas bagi personel pemeliharaan.~~
 - Administrator dapat menentukan skala urgensi perbaikan berdasarkan laporan yang diterima.
 - Administrator menerima notifikasi pelaporan melalui aplikasi mobile.
 - Pengguna dan penanggungjawab pemeliharaan dapat berdiskusi melalui komentar.
@@ -43,14 +43,14 @@ Fitur utama dari sistem perangkat lunak ini meliputi:
 
 - Pelaporan oleh Pengguna Publik: Memungkinkan pengguna publik untuk melaporkan kerusakan atau masalah fasilitas.
 - Pemeriksaan dan Penayangan oleh Administrator: Memungkinkan administrator untuk memeriksa dan menampilkan laporan yang disetujui.
-~~- Voting oleh Publik: Memungkinkan pengguna publik untuk memberikan suara pada masalah yang dilaporkan untuk prioritas.~~
+- ~~Voting oleh Publik: Memungkinkan pengguna publik untuk memberikan suara pada masalah yang dilaporkan untuk prioritas.~~
 - Pemberian Skala Urgensi oleh Administrator: Memungkinkan Admin untuk meninjau laporan dan memberikan skala urgensi pada laporan yang diberikan.
 - Klasifikasi Masalah: Membantu administrator mengklasifikasikan masalah yang dilaporkan.
 
 Secara umum, fitur yang diperlukan dalam perangkat lunak ini adalah sebagai berikut:
 
 - Upload foto atau video beserta keterangan kondisi dan lokasi
-~~- Voting urgensi perbaikan dari pengguna~~
+- ~~Voting urgensi perbaikan dari pengguna~~
 - Skala urgensi
 - Komentar
 - Update status perbaikan
@@ -163,7 +163,7 @@ Berikut adalah daftar istilah yang relevan beserta definisinya:
 - Pelaporan fasilitas: Proses penggunaan aplikasi untuk melaporkan kerusakan atau masalah yang terjadi pada fasilitas tertentu.
 - Pengguna publik: Individu dari masyarakat umum yang menggunakan aplikasi untuk melaporkan masalah fasilitas atau berpartisipasi dalam voting.
 - Administrator: Pengguna yang memiliki hak akses khusus untuk memeriksa laporan, menampilkan yang disetujui, dan mengelola masalah fasilitas.
-~~- Voting: Proses pengguna memberikan suara pada masalah yang dilaporkan untuk menentukan prioritas penanganan.~~
+- ~~Voting: Proses pengguna memberikan suara pada masalah yang dilaporkan untuk menentukan prioritas penanganan.~~
 - Antarmuka berbasis web: Antarmuka pengguna yang diakses melalui web browser untuk berinteraksi dengan aplikasi.
 - Server basis data: Komponen sistem yang bertanggung jawab untuk menyimpan dan mengelola laporan pemeliharaan fasilitas dan informasi pengguna.
 - Koneksi internet: Keterhubungan perangkat dengan jaringan global yang memungkinkan akses ke aplikasi.
